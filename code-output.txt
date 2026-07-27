@@ -1,0 +1,2091 @@
+◇ injected env (2) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+{
+  "summary": {
+    "success": true,
+    "startedAt": 1785190227527,
+    "finishedAt": 1785190233613,
+    "duration": 6086
+  },
+  "metrics": {},
+  "features": {
+    "browser": {
+      "success": true,
+      "duration": 6086
+    }
+  },
+  "collectors": {
+    "basic": {
+      "success": true,
+      "duration": 2,
+      "data": {
+        "title": "پارس هاست | خرید هاست ابری، سرور و دامنه با پشتیبانی ٢۴/٧",
+        "url": "https://pars.host/",
+        "finalUrl": "https://pars.host/"
+      }
+    },
+    "navigation": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "status": 200,
+        "url": "https://pars.host/",
+        "redirected": false
+      }
+    },
+    "navigationTiming": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "dnsLookup": 0,
+        "tcpConnection": 424.4,
+        "sslHandshake": 268.8,
+        "ttfb": 330.6,
+        "download": 30.4,
+        "domInteractive": 2335.1,
+        "domContentLoaded": 2335.7,
+        "loadComplete": 5118.4,
+        "total": 5118.4
+      }
+    },
+    "performance": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "navigationType": "navigate",
+        "redirectCount": 0,
+        "uptime": 5137.6,
+        "memory": {
+          "jsHeapSizeLimit": 4395368448,
+          "totalJSHeapSize": 26398242,
+          "usedJSHeapSize": 20425330,
+          "usagePercent": 0.46
+        }
+      }
+    },
+    "network": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "requests": 99,
+          "responses": 99,
+          "finished": 94,
+          "failed": 5,
+          "successRate": 94.95
+        },
+        "methods": {
+          "GET": 86,
+          "POST": 13
+        },
+        "resources": {
+          "document": 3,
+          "image": 39,
+          "stylesheet": 10,
+          "other": 2,
+          "script": 21,
+          "ping": 4,
+          "font": 6,
+          "fetch": 11,
+          "xhr": 3
+        },
+        "statusCodes": {
+          "200": 95,
+          "204": 4
+        },
+        "contentTypes": {
+          "html": 4,
+          "stylesheet": 10,
+          "image": 40,
+          "javascript": 21,
+          "json": 6,
+          "font": 6,
+          "other": 12
+        },
+        "failedRequests": [
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&ae=g&auid=11305126.1785190231&dt=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C&en=page_view&dl=https%3A%2F%2Fpars.host%2F&scrsrc=www.googletagmanager.com&rnd=1092504705.1785190231&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He67o1v78905481za200zd78905481xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896802&apvc=1&tft=1785190230775&tfd=2974&fmt=8",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://ad.doubleclick.net/ccm/s/collect?auid=11305126.1785190231&gtm=45He67o1v78905481za200zd78905481xea",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&auid=11305126.1785190231&dt=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C&en=page_view&dl=https%3A%2F%2Fpars.host%2F&scrsrc=www.googletagmanager.com&rnd=1092504705.1785190231&navt=n&npa=0&gtm=45je67o1v879932357z878905481za20gzb78905481zd78905481xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119896803&apvc=0&tids=AW-797801126&tid=AW-797801126&tft=1785190231338&tfd=3538&fmt=8",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/rmkt/collect/797801126/?random=1785190231323&cv=11&fst=1785190231323&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67o1v879932357z878905481za20gzb78905481zd78905481xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119896803&u_w=1920&u_h=1080&url=https%3A%2F%2Fpars.host%2F&rcb=19&frm=0&tiba=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=11305126.1785190231&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-3CTQRK1PQ9&gtm=45je67o1v879932357z878905481za20gzb78905481zd78905481&_p=1785190229442&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=566451995.1785190231&frm=0&pscdl=noapi&rcb=19&sr=1920x1080&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896803&sid=1785190231&sct=1&seg=0&dl=https%3A%2F%2Fpars.host%2F&dt=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C%20%D9%A2%DB%B4%2F%D9%A7&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=3521",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    "console": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "total": 11,
+          "log": 1,
+          "info": 0,
+          "warning": 6,
+          "error": 0,
+          "debug": 0
+        },
+        "messages": [
+          {
+            "type": "log",
+            "text": "JQMIGRATE: Migrate is installed with logging active, version 3.4.1",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 103,
+              "column": 16,
+              "lineNumber": 103,
+              "columnNumber": 16
+            }
+          },
+          {
+            "type": "warning",
+            "text": "JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 135,
+              "column": 11,
+              "lineNumber": 135,
+              "columnNumber": 11
+            }
+          },
+          {
+            "type": "trace",
+            "text": "console.trace",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 137,
+              "column": 12,
+              "lineNumber": 137,
+              "columnNumber": 12
+            }
+          },
+          {
+            "type": "warning",
+            "text": "JQMIGRATE: jQuery.type is deprecated",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 135,
+              "column": 11,
+              "lineNumber": 135,
+              "columnNumber": 11
+            }
+          },
+          {
+            "type": "trace",
+            "text": "console.trace",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 137,
+              "column": 12,
+              "lineNumber": 137,
+              "columnNumber": 12
+            }
+          },
+          {
+            "type": "warning",
+            "text": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled and not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters",
+            "location": {
+              "url": "https://pars.host/wp-content/themes/pars-host/js/swiper-bundle.min.js?ver=11.1.10",
+              "line": 12,
+              "column": 4242,
+              "lineNumber": 12,
+              "columnNumber": 4242
+            }
+          },
+          {
+            "type": "warning",
+            "text": "JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 135,
+              "column": 11,
+              "lineNumber": 135,
+              "columnNumber": 11
+            }
+          },
+          {
+            "type": "trace",
+            "text": "console.trace",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 137,
+              "column": 12,
+              "lineNumber": 137,
+              "columnNumber": 12
+            }
+          },
+          {
+            "type": "warning",
+            "text": "JQMIGRATE: jQuery.fn.click() event shorthand is deprecated",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 135,
+              "column": 11,
+              "lineNumber": 135,
+              "columnNumber": 11
+            }
+          },
+          {
+            "type": "trace",
+            "text": "console.trace",
+            "location": {
+              "url": "https://pars.host/wp-includes/js/jquery/jquery-migrate.js",
+              "line": 137,
+              "column": 12,
+              "lineNumber": 137,
+              "columnNumber": 12
+            }
+          },
+          {
+            "type": "warning",
+            "text": "Data from this session is not being collected by Microsoft Clarity due to your configured project settings",
+            "location": {
+              "url": "https://www.clarity.ms/tag/ml363xsikk?ref=gtm2",
+              "line": 0,
+              "column": 848,
+              "lineNumber": 0,
+              "columnNumber": 848
+            }
+          }
+        ]
+      }
+    },
+    "resource": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "totalResources": 95,
+          "totalTransferSize": 797095,
+          "totalEncodedSize": 776695,
+          "totalDecodedSize": 2284869,
+          "slowestResource": {
+            "url": "https://pars.host/wp-content/uploads/2026/07/stars-loading.gif",
+            "type": "image",
+            "contentType": "image/gif",
+            "duration": 1567.5,
+            "status": 200
+          },
+          "largestResource": {
+            "url": "https://pars.host/wp-includes/js/jquery/jquery.js",
+            "type": "javascript",
+            "contentType": "text/javascript; charset=UTF-8",
+            "transferSize": 81616,
+            "status": 200
+          }
+        },
+        "byType": {
+          "image": {
+            "count": 39,
+            "transferSize": 214384,
+            "encodedSize": 202684,
+            "decodedSize": 306198,
+            "totalDuration": 20437.600000000006,
+            "averageDuration": 524.04
+          },
+          "stylesheet": {
+            "count": 10,
+            "transferSize": 97990,
+            "encodedSize": 94990,
+            "decodedSize": 837848,
+            "totalDuration": 8204.300000000001,
+            "averageDuration": 820.43
+          },
+          "json": {
+            "count": 4,
+            "transferSize": 602,
+            "encodedSize": 302,
+            "decodedSize": 703,
+            "totalDuration": 2107.6,
+            "averageDuration": 526.9
+          },
+          "javascript": {
+            "count": 21,
+            "transferSize": 234424,
+            "encodedSize": 231124,
+            "decodedSize": 889428,
+            "totalDuration": 19708.4,
+            "averageDuration": 938.5
+          },
+          "html": {
+            "count": 3,
+            "transferSize": 1987,
+            "encodedSize": 1687,
+            "decodedSize": 4784,
+            "totalDuration": 1166.5,
+            "averageDuration": 388.83
+          },
+          "font": {
+            "count": 6,
+            "transferSize": 247708,
+            "encodedSize": 245908,
+            "decodedSize": 245908,
+            "totalDuration": 2117.9,
+            "averageDuration": 352.98
+          },
+          "other": {
+            "count": 12,
+            "transferSize": 0,
+            "encodedSize": 0,
+            "decodedSize": 0,
+            "totalDuration": 6525.799999999999,
+            "averageDuration": 543.82
+          }
+        }
+      }
+    },
+    "paint": {
+      "success": true,
+      "duration": 1,
+      "data": {
+        "firstPaint": 1760,
+        "firstContentfulPaint": 1760
+      }
+    },
+    "cookies": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "total": 19,
+          "secure": 5,
+          "httpOnly": 0,
+          "session": 1,
+          "persistent": 18
+        },
+        "sameSite": {
+          "Lax": 14,
+          "None": 5
+        },
+        "cookies": [
+          {
+            "name": "_pk_id.2.c64f",
+            "value": "8ab83b4b276b2467.1785190230.",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1819145430,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "_pk_ses.2.c64f",
+            "value": "1",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1785192029,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.11305126.1785190231",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1792966231,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "USER_ID",
+            "value": "03394b10-27ac-425b-b45e-696154a12d2f",
+            "domain": ".mediaad.org",
+            "path": "/",
+            "expires": 1819750231.276046,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+          },
+          {
+            "name": "_svp",
+            "value": "1",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": -1,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "__sov_ft",
+            "value": "%7B%22source%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22campaign%22%3A%22%22%2C%22content%22%3A%22%22%2C%22term%22%3A%22%22%2C%22click_id_type%22%3A%22%22%2C%22landing_path%22%3A%22%2F%22%2C%22referrer%22%3A%22%22%2C%22ts%22%3A1785190231265%7D",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1816726231,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "__sov_did",
+            "value": "4591ef70-b10a-4081-a77c-f3a5a0ca840a",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1816726232,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "_ga_3CTQRK1PQ9",
+            "value": "GS2.1.s1785190231$o1$g0$t1785190231$j60$l0$h0",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1819750231.320474,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "analytics_token",
+            "value": "49b9d3a1-54d7-342d-5452-fc95243417b4",
+            "domain": "pars.host",
+            "path": "/",
+            "expires": 1816726231,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "analytics_session_token",
+            "value": "8bfd7ec1-2812-1b9e-edc1-ae47bf417e28",
+            "domain": "pars.host",
+            "path": "/",
+            "expires": 1785192031,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "yektanet_session_last_activity",
+            "value": "7/28/2026",
+            "domain": "pars.host",
+            "path": "/",
+            "expires": 1785276631,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.2.566451995.1785190231",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1819750231.38385,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "_gid",
+            "value": "GA1.2.1362071762.1785190231",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1785276631,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "_gat_UA-42856739-1",
+            "value": "1",
+            "domain": ".pars.host",
+            "path": "/",
+            "expires": 1785190291,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "analytics_global_token",
+            "value": "01KYJT2BTDGP1410WN1TFSCAX7",
+            "domain": ".yektanet.com",
+            "path": "/",
+            "expires": 1819750232.357654,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+          },
+          {
+            "name": "gearbox_ad_token",
+            "value": "01KYJT2BTDGP1410WN1TFSCAX7",
+            "domain": ".yektanet.com",
+            "path": "/",
+            "expires": 1819750232.357706,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+          },
+          {
+            "name": "_yngt",
+            "value": "01KYJT2BTDGP1410WN1TFSCAX7",
+            "domain": ".yektanet.com",
+            "path": "/",
+            "expires": 1819750232.35773,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+          },
+          {
+            "name": "_yngt",
+            "value": "01KYJT2BTDGP1410WN1TFSCAX7",
+            "domain": "pars.host",
+            "path": "/",
+            "expires": 1787782231,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+          },
+          {
+            "name": "test_cookie",
+            "value": "CheckForPermission",
+            "domain": ".doubleclick.net",
+            "path": "/",
+            "expires": 1785191132.766957,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+          }
+        ]
+      }
+    },
+    "storage": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "localStorageItems": 10,
+          "sessionStorageItems": 0
+        },
+        "localStorage": {
+          "__sov_aid": "4591ef70-b10a-4081-a77c-f3a5a0ca840a",
+          "ma-session:user": "{\"v\":1,\"data\":{\"03394b10-27ac-425b-b45e-696154a12d2f\":\"03394b10-27ac-425b-b45e-696154a12d2f\",\"MEDIAAD_USER_ID\":\"03394b10-27ac-425b-b45e-696154a12d2f\"}}",
+          "ma-session:data": "{\"v\":1,\"data\":{\"get\":\"1\",\"end\":\"1785192030449\",\"start\":\"1785190230448\",\"num\":\"0\",\"0:tag:38658\":\"1\"}}",
+          "_yngt": "01KYJT2BTDGP1410WN1TFSCAX7",
+          "__sov_q": "[{\"e\":\"se\",\"eid\":\"c4210fd6-bc6e-41a5-9e5b-52d23d3ff48d\",\"aid\":\"AP-335452C6DC\",\"did\":\"4591ef70-b10a-4081-a77c-f3a5a0ca840a\",\"dtm\":1785190232374,\"url\":\"https://pars.host/\",\"refr\":\"\",\"title\":\"پارس هاست | خرید هاست ابری، سرور و دامنه با پشتیبانی ٢۴/٧\",\"cn\":[],\"co\":[{\"schema\":\"iglu:com.sovereign/fingerprint/jsonschema/1-0-0\",\"data\":{\"canvas\":\"QVQDAJpCuy1VbxgGAAAAAElFTkSuQmCC\",\"webgl_vendor\":\"Google Inc. (Google)\",\"webgl_renderer\":\"ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)\",\"screen\":\"1920x1080x24\",\"tz\":\"Asia/Tehran\",\"langs\":[\"en-US\",\"en\"],\"cores\":6,\"mem\":8,\"platform\":\"Win32\"}},{\"schema\":\"iglu:com.sovereign/client_attribution/jsonschema/1-0-0\",\"data\":{\"ft\":{\"source\":\"\",\"medium\":\"\",\"campaign\":\"\",\"content\":\"\",\"term\":\"\",\"click_id_type\":\"\",\"landing_path\":\"/\",\"referrer\":\"\",\"ts\":1785190231265},\"lt\":{\"source\":\"\",\"medium\":\"\",\"campaign\":\"\",\"content\":\"\",\"term\":\"\",\"click_id_type\":\"\",\"landing_path\":\"/\",\"referrer\":\"\",\"ts\":1785190232374}}}],\"en\":\"fp_enrich\",\"props\":{\"audio_hash\":\"352.3896651919131\",\"canvas2\":\"QVQDAJpCuy1VbxgGAAAAAElFTkSuQmCC\",\"brave\":false,\"ua_platform\":\"Windows\",\"ua_platform_version\":\"10.0.0\",\"ua_arch\":\"x86\",\"ua_model\":\"\",\"ua_full_version\":\"150.0.7871.182\",\"ua_bitness\":\"64\"}}]",
+          "yk_usridsmap": "[\"5b2dc0bc-1431-4562-ab38-478d80146891\",\"f9e3b024-f79c-4ffa-94bb-ab2c73ffe062\"]",
+          "_gcl_ls": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"yIO8PSk472F2b9LWcIBx3tpmLZBx8-cScw\",\"lastJoinedTimeMs\":1785190230761},\"expires\":1785190530761},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1785190230763},\"expires\":1792966230763}}",
+          "__sov_em": "{\"em\":{\"scrolls\":true,\"page_views\":true,\"site_search\":{\"enabled\":true,\"query_params\":[\"q\",\"s\",\"query\",\"search\"]},\"file_downloads\":true,\"outbound_clicks\":true,\"video_engagement\":true,\"form_interactions\":true},\"xd\":[{\"t\":\"exact\",\"v\":\"pars.host\"},{\"t\":\"exact\",\"v\":\"pars.host\"},{\"t\":\"contains\",\"v\":\"pars.hosting\"},{\"t\":\"contains\",\"v\":\"billing.pars.host\"}],\"hm\":{\"capture_snapshot\":true,\"enabled\":true,\"exclude_paths\":[],\"modes\":[\"click\",\"scroll\",\"move\"],\"module_url\":\"/hm.js\",\"sample_rate\":1},\"consent\":null}",
+          "yk_sstidsmap": "{\"5b2dc0bc-1431-4562-ab38-478d80146891\":\"8bfd7ec1-2812-1b9e-edc1-ae47bf417e28\",\"f9e3b024-f79c-4ffa-94bb-ab2c73ffe062\":\"8bfd7ec1-2812-1b9e-edc1-ae47bf417e28\"}",
+          "analytics_token": "49b9d3a1-54d7-342d-5452-fc95243417b4"
+        },
+        "sessionStorage": {}
+      }
+    },
+    "meta": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "title": "پارس هاست | خرید هاست ابری، سرور و دامنه با پشتیبانی ٢۴/٧",
+        "charset": "UTF-8",
+        "language": "fa-IR",
+        "canonical": "https://pars.host/",
+        "favicon": true,
+        "metaCount": 16,
+        "metas": {
+          "viewport": "width=device-width, initial-scale=1",
+          "X-UA-Compatible": "ie=edge",
+          "theme-color": "#3c5788",
+          "description": "پارس هاست با بیش از ٢٠ سال تجربه ارزشمند، ارائه دهنده انواع هاست، سرور قدرتمند و خدمات دامنه با پشتیبانی ۲۴/۷؛ انتخاب مطمئن کسب وکارهای آنلاین.",
+          "robots": "follow, index",
+          "og:locale": "fa_IR",
+          "og:type": "website",
+          "og:title": "پارس هاست | خرید هاست ابری، سرور و دامنه با پشتیبانی ٢۴/٧",
+          "og:description": "پارس هاست با بیش از ٢٠ سال تجربه ارزشمند، ارائه دهنده انواع هاست، سرور قدرتمند و خدمات دامنه با پشتیبانی ۲۴/۷؛ انتخاب مطمئن کسب وکارهای آنلاین.",
+          "og:url": "https://pars.host/",
+          "og:site_name": "پارس هاست",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "پارس هاست | خرید هاست ابری، سرور و دامنه با پشتیبانی ٢۴/٧",
+          "twitter:description": "پارس هاست با بیش از ٢٠ سال تجربه ارزشمند، ارائه دهنده انواع هاست، سرور قدرتمند و خدمات دامنه با پشتیبانی ۲۴/۷؛ انتخاب مطمئن کسب وکارهای آنلاین.",
+          "generator": "WP Rocket 3.21.3",
+          "msapplication-TileImage": "https://pars.host/wp-content/uploads/2025/06/cropped-parshost-512-270x270.png"
+        }
+      }
+    },
+    "links": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "total": 131,
+          "internal": 118,
+          "external": 13,
+          "blank": 1,
+          "nofollow": 1,
+          "mailto": 0,
+          "tel": 2
+        },
+        "links": [
+          {
+            "text": "",
+            "href": "https://pars.host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "فرصت های شغلی",
+            "href": "https://pars.host/jobs/",
+            "target": "_blank",
+            "rel": "nofollow",
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/jobs/"
+          },
+          {
+            "text": "کسب درآمد",
+            "href": "https://pars.host/affiliate/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/affiliate/"
+          },
+          {
+            "text": "بلاگ",
+            "href": "https://pars.host/blog",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/blog"
+          },
+          {
+            "text": "۰۲۱\n                                ۴۱۹۴۸",
+            "href": "tel:+982141948",
+            "target": null,
+            "rel": null,
+            "protocol": "tel:",
+            "hostname": "",
+            "pathname": "+982141948"
+          },
+          {
+            "text": "سرور ابری چیست و چگونه کار می‌کند؟",
+            "href": "https://pars.host/blog/%D8%B3%D8%B1%D9%88%D8%B1-%D8%A7%D8%A8%D8%B1%DB%8C-%DA%86%DB%8C%D8%B3%D8%AA-%D9%88-%DA%86%DA%AF%D9%88%D9%86%D9%87-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C%DA%A9%D9%86%D8%AF%D8%9F/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/blog/%D8%B3%D8%B1%D9%88%D8%B1-%D8%A7%D8%A8%D8%B1%DB%8C-%DA%86%DB%8C%D8%B3%D8%AA-%D9%88-%DA%86%DA%AF%D9%88%D9%86%D9%87-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C%DA%A9%D9%86%D8%AF%D8%9F/"
+          },
+          {
+            "text": "",
+            "href": "https://pars.host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "<img alt=\"پارس هاست\" class=\"logo\" src=\"https://pars.host/wp-content/themes/pars-host/assets/images/logo-short.svg\"/>",
+            "href": "https://pars.host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "میزبانی وردپرس",
+            "href": "https://pars.host/wordpress-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/wordpress-host/"
+          },
+          {
+            "text": "هاست وردپرس\n                                                        بهینه شده برای اجرای وب سایتهای وردپرسی",
+            "href": "https://pars.host/wordpress-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/wordpress-host/"
+          },
+          {
+            "text": "هاست ووکامرس\n                                                        بهینه شده برای اجرای فروشگاه‌های آنلاین ووکامرس",
+            "href": "https://pars.host/woocommerce/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/woocommerce/"
+          },
+          {
+            "text": "میزبانی ابری",
+            "href": "https://pars.host/host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/host/"
+          },
+          {
+            "text": "هاست لینوکس\n                                                        ترافیک ماهانه و فضای ذخیره سازی نامحدود",
+            "href": "https://pars.host/linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/linux-host/"
+          },
+          {
+            "text": "هاست لینوکس ابری\n                                                        سرعت و انعطاف پذیری بالا با استفاده از فناوری ابری",
+            "href": "https://pars.host/cloud-linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-linux-host/"
+          },
+          {
+            "text": "هاست لینوکس حرفه ای\n                                                        بکاپ‌گیری روزانه و امکان عودت وجه در تمامی دوره",
+            "href": "https://pars.host/linux-pro/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/linux-pro/"
+          },
+          {
+            "text": "هاست لینوکس پر بازدید\n                                                        منابع و قدرت بالاتر برای پشتیبانی از سایت‌های پربازدید",
+            "href": "https://pars.host/high-traffic-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/high-traffic-host/"
+          },
+          {
+            "text": "هاست دانلود\n                                                        فضایی امن برای ارائه محتوای دانلودی با سرعت بالا",
+            "href": "https://pars.host/file-hosting/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/file-hosting/"
+          },
+          {
+            "text": "هاست بکاپ\n                                                         امنیت بیشتر با ذخیره‌سازی نسخه پشتیبان قابل اعتماد",
+            "href": "https://pars.host/backup-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/backup-host/"
+          },
+          {
+            "text": "هاست ویندوز\n                                                        مناسب سایت های تولید شده با ASP.NET",
+            "href": "https://pars.host/windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/windows-host/"
+          },
+          {
+            "text": "هاست ویندوز ابری\n                                                        انعطاف بیشتر و عملکرد بهتر با محیط ابری",
+            "href": "https://pars.host/cloud-windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-windows-host/"
+          },
+          {
+            "text": "نمایندگی هاست ویندوز\n\n                                                            \n                                                        فرصت طلایی برای شروع کسب وکار آنلاین",
+            "href": "https://pars.host/reseller-hosting-windows-iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/reseller-hosting-windows-iran/"
+          },
+          {
+            "text": "نمایندگی هاست لینوکس\n\n                                                            \n                                                        راهی آسان برای کسب درآمد از میزبانی وب",
+            "href": "https://pars.host/reseller-hosting-linux-iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/reseller-hosting-linux-iran/"
+          },
+          {
+            "text": "سرور",
+            "href": "https://pars.host/server/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server/"
+          },
+          {
+            "text": "سرور مجازی ابری",
+            "href": "https://pars.host/server-vps/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/"
+          },
+          {
+            "text": "سرور مجازی لینوکس\n                                                        سرعت و دسترسی پذیری بالا",
+            "href": "https://pars.host/server-vps/linux/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/linux/"
+          },
+          {
+            "text": "سرور مجازی ویندوز\n                                                        سرعت و دسترسی پذیری بالا با سیستم عامل ویندوز",
+            "href": "https://pars.host/server-vps/windows/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/windows/"
+          },
+          {
+            "text": "سرور مجازی ایران\n                                                        امنیت بی نظیر و پینگ پایین برای کاربران داخل ایران",
+            "href": "https://pars.host/server-vps/iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/iran/"
+          },
+          {
+            "text": "زیر ساخت ابری (IaaS) جدید",
+            "href": "https://pars.host/iaas/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/"
+          },
+          {
+            "text": "سرورn8nجدید\n                                                            اتوماسیون و اتصال سرویس ها (One Click Apps)",
+            "href": "https://pars.host/iaas/n8n/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/n8n/"
+          },
+          {
+            "text": "سرورDockerجدید\n                                                            دیپلوی سریع اپلیکیشن ها (One Click Apps)",
+            "href": "https://pars.host/iaas/docker/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/docker/"
+          },
+          {
+            "text": "سرورNode.jsجدید\n                                                            اجرای سریع اپلیکیشن ها (One Click Apps)",
+            "href": "https://pars.host/iaas/nodejs/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/nodejs/"
+          },
+          {
+            "text": "سرورKubernetesجدید\n                                                            مدیریت و مقیاس پذیری (One Click Apps)",
+            "href": "https://pars.host/iaas/kubernetes/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/kubernetes/"
+          },
+          {
+            "text": "سرورMikrotikجدید\n                                                            کنترل شبکه، فایروال و روتینگ (One Click Apps)",
+            "href": "https://pars.host/iaas/mikrotik/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/mikrotik/"
+          },
+          {
+            "text": "مشاهده سرویس های IaaS",
+            "href": "https://pars.host/iaas/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iaas/"
+          },
+          {
+            "text": "سرور اختصاصی",
+            "href": "https://pars.host/server-dedicated/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/"
+          },
+          {
+            "text": "سرور اختصاصی ایران\n                                                        ارائه از چندین دیتاسنتر داخل کشور",
+            "href": "https://pars.host/server-dedicated/iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/iran/"
+          },
+          {
+            "text": "سرور اختصاصی خارج کشور\n                                                        ارائه سرور از دیتاسنتر های معتبر جهانی",
+            "href": "https://pars.host/server-dedicated/germany/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/germany/"
+          },
+          {
+            "text": "اجاره فضای دیتاسنتر\n                                                        تجهیزات، فضا و پهنای باند مورد نیاز با زیر ساخت قوی",
+            "href": "https://pars.host/colocation",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/colocation"
+          },
+          {
+            "text": "دامنه",
+            "href": "https://pars.host/domains/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domains/"
+          },
+          {
+            "text": "خرید و ثبت دامنه\n                                                        راهی آسان و مطمئن برای انتخاب نام دامنه  موردنظرتان",
+            "href": "https://pars.host/domains/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domains/"
+          },
+          {
+            "text": "انتقال دامنه\n                                                        انتقال سریع و ساده‌ی دامنه‌ شما به محیط مدیریتی ما",
+            "href": "https://pars.host/domain-transfer/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domain-transfer/"
+          },
+          {
+            "text": "تمدید دامنه\n                                                        بروزرسانی و تمدید آسان و به موقع دامنه‌های شما",
+            "href": "https://billing.pars.host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "نمایندگی ثبت دامنه\n                                                        خدمات ثبت و مدیریت دامنه به صورت حرفه‌ای و مطمئن",
+            "href": "https://pars.host/reseller-domain/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/reseller-domain/"
+          },
+          {
+            "text": "Back Order - رزرو دامنه\n                                                        راه حلی برای به دست اوردن مالکیت دامنه های از دست رفته",
+            "href": "https://pars.host/domain-backorder/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domain-backorder/"
+          },
+          {
+            "text": "HNS خرید دامنه\n                                                        ثبت دامنه بدون محدودیت در نام و پسوند",
+            "href": "https://pars.host/hns-domain/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/hns-domain/"
+          },
+          {
+            "text": "گواهی SSL",
+            "href": "https://pars.host/ssl/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/ssl/"
+          },
+          {
+            "text": "سرویس های ملی",
+            "href": "https://pars.host/iran-service/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/iran-service/"
+          },
+          {
+            "text": "هاب\n                                                                جدید\n                                                            \n                                                            مدیریت تیم، اشتراک‌گذاری فایل و برنامه‌ریزی پروژه‌ها",
+            "href": "https://pars.host/hub/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/hub/"
+          },
+          {
+            "text": "سایت ساز\n                                                            وب سایت خود را بدون کدنویس و آسان بسازید",
+            "href": "https://pars.host/sitebuilder/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/sitebuilder/"
+          },
+          {
+            "text": "",
+            "href": "https://pars.host/#",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "",
+            "href": "https://pars.host/#",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "",
+            "href": "https://pars.host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "حساب کاربری",
+            "href": "https://billing.pars.host/hosting/?m=spSimpelLogin",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/hosting/"
+          },
+          {
+            "text": "ارسال تیکت",
+            "href": "https://billing.pars.host/hosting/submitticket.php?step=2",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/hosting/submitticket.php"
+          },
+          {
+            "text": "حالا شروع کنید",
+            "href": "https://pars.host/landing/summer-1405/?utm_source=Site&utm_campaign=summer1405&utm_medium=slider",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/landing/summer-1405/"
+          },
+          {
+            "text": "جستجو",
+            "href": "https://pars.host/domains",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domains"
+          },
+          {
+            "text": "خرید",
+            "href": "https://billing.pars.host/hosting/cart.php?a=add&domain=register&domains[]=",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/hosting/cart.php"
+          },
+          {
+            "text": "خرید",
+            "href": "https://billing.pars.host/hosting/cart.php?a=add&domain=register&domains[]=",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/hosting/cart.php"
+          },
+          {
+            "text": "خرید",
+            "href": "https://billing.pars.host/hosting/cart.php?a=add&domain=register&domains[]=",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/hosting/cart.php"
+          },
+          {
+            "text": "هاست وردپرس",
+            "href": "https://pars.host/#pills-wordpress-tab",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "هاست ووکامرس",
+            "href": "https://pars.host/#pills-woocommerce-tab",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "هاست لینوکس ابری",
+            "href": "https://pars.host/#pills-linux-tab",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "هاست ویندوز ابری",
+            "href": "https://pars.host/#pills-windows-tab",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "گواهینامه SSL",
+            "href": "https://pars.host/#pills-ssl-tab",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/"
+          },
+          {
+            "text": "مشاهده پلان ها\n                                                    ویـــژه",
+            "href": "https://pars.host/woocommerce/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/woocommerce/"
+          },
+          {
+            "text": "مشاهده پلان ها\n                                                ویـــژه",
+            "href": "https://pars.host/cloud-linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-linux-host/"
+          },
+          {
+            "text": "مشاهده پلان ها\n                                                ویـــژه",
+            "href": "https://pars.host/wordpress-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/wordpress-host/"
+          },
+          {
+            "text": "مشاهده پلان ها\n                                                    ویـــژه",
+            "href": "https://pars.host/cloud-windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-windows-host/"
+          },
+          {
+            "text": "مشاهده پلان ها\n                                                ویـــژه",
+            "href": "https://pars.host/ssl",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/ssl"
+          },
+          {
+            "text": "بیشتر بدانید",
+            "href": "https://pars.host/whyserverpars/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/whyserverpars/"
+          },
+          {
+            "text": "<img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/cloudy-host-windows.svg\" alt=\"هاست ویندوز ابری\" />                                                                هاست ویندوز ابری                                                                                                        شروع از                                        ۱۶۰                                                                                    هـزار تومان                                            مـــاهانـــه                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />",
+            "href": "https://pars.host/cloud-windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-windows-host/"
+          },
+          {
+            "text": "پرطرفدار!                                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/cloudy-host-linux.svg\" alt=\"هاست لینوکس ابری\" />                                                                هاست لینوکس ابری                                                                                                        شروع از                                        ۱۴۰                                                                                    هـزار تومان                                            مـــاهانـــه                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />",
+            "href": "https://pars.host/cloud-linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-linux-host/"
+          },
+          {
+            "text": "<img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/cloudy-server.svg\" alt=\"سرور مجازی ابری\" />                                                                سرور مجازی ابری                                                                                                        شروع از                                        ۲                                                                                    میلیون تومان                                            مـــاهانـــه                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />",
+            "href": "https://pars.host/server-vps/linux/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/linux/"
+          },
+          {
+            "text": "پرطرفدار!                                                                                                                        <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/cloudy-host-linux.svg\" alt=\"هاست لینوکس ابری\" />                                                                                هاست لینوکس ابری                                                                                                                شروع از                                        ۱۴۰                                                                                    هـزار تومان                                            مـــاهانـــه                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />                                                                        <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />",
+            "href": "https://pars.host/cloud-linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-linux-host/"
+          },
+          {
+            "text": "<img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/cloudy-host-windows.svg\" alt=\"هاست ویندوز ابری\" />                                                                                هاست ویندوز ابری                                                                                                                شروع از                                        ۱۶۰                                                                                    هـزار تومان                                            مـــاهانـــه                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />                                                                        <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />",
+            "href": "https://pars.host/cloud-windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-windows-host/"
+          },
+          {
+            "text": "<img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/cloudy-server.svg\" alt=\"سرور مجازی ابری\" />                                                                                سرور مجازی ابری                                                                                                                شروع از                                        ۲                                                                                    میلیون تومان                                            مـــاهانـــه                                                                                <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />                                                                        <img src=\"https://pars.host/wp-content/themes/pars-host/assets/icons/chevron-left-white.svg\" alt=\"icon\" />",
+            "href": "https://pars.host/server-vps/linux/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/linux/"
+          },
+          {
+            "text": "ارسال تیکت",
+            "href": "https://billing.pars.host/hosting/submitticket.php",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "billing.pars.host",
+            "pathname": "/hosting/submitticket.php"
+          },
+          {
+            "text": "۴۱۹۴۸ ۰۲۱",
+            "href": "tel:+982141948",
+            "target": null,
+            "rel": null,
+            "protocol": "tel:",
+            "hostname": "",
+            "pathname": "+982141948"
+          },
+          {
+            "text": "ثبت دامنه",
+            "href": "https://pars.host/domains/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domains/"
+          },
+          {
+            "text": "هاست لینوکس",
+            "href": "https://pars.host/linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/linux-host/"
+          },
+          {
+            "text": "هاست وردپرس",
+            "href": "https://pars.host/wordpress-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/wordpress-host/"
+          },
+          {
+            "text": "هاست ووکامرس",
+            "href": "https://pars.host/woocommerce/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/woocommerce/"
+          },
+          {
+            "text": "هاست ابری لینوکس",
+            "href": "https://pars.host/cloud-linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-linux-host/"
+          },
+          {
+            "text": "هاست ویندوز",
+            "href": "https://pars.host/windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/windows-host/"
+          },
+          {
+            "text": "هاست ابری ویندوز",
+            "href": "https://pars.host/cloud-windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-windows-host/"
+          },
+          {
+            "text": "سرور مجازی ابری ویندوز",
+            "href": "https://pars.host/server-vps/windows/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/windows/"
+          },
+          {
+            "text": "سرور مجازی ابری لینوکس",
+            "href": "https://pars.host/server-vps/linux/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/linux/"
+          },
+          {
+            "text": "سرور مجازی ایران",
+            "href": "https://pars.host/server-vps/iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/iran/"
+          },
+          {
+            "text": "سرور اختصاصی ایران",
+            "href": "https://pars.host/server-dedicated/iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/iran/"
+          },
+          {
+            "text": "سرور اختصاصی خارج کشور",
+            "href": "https://pars.host/server-dedicated/germany/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/germany/"
+          },
+          {
+            "text": "اجاره فضای دیتاسنتر",
+            "href": "https://pars.host/colocation/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/colocation/"
+          },
+          {
+            "text": "سایت ساز",
+            "href": "https://pars.host/sitebuilder/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/sitebuilder/"
+          },
+          {
+            "text": "گواهی SSL",
+            "href": "https://pars.host/ssl/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/ssl/"
+          },
+          {
+            "text": "کسب درآمد کنید",
+            "href": "https://pars.host/affiliate/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/affiliate/"
+          },
+          {
+            "text": "افزونه وردپرس پارس هاست",
+            "href": "https://pars.host/plugin/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/plugin/"
+          },
+          {
+            "text": "چرا پارس هاست؟",
+            "href": "https://pars.host/whyserverpars/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/whyserverpars/"
+          },
+          {
+            "text": "تماس با ما",
+            "href": "https://pars.host/contact-us/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/contact-us/"
+          },
+          {
+            "text": "قوانین",
+            "href": "https://pars.host/tos/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/tos/"
+          },
+          {
+            "text": "لیست مشتریان",
+            "href": "https://pars.host/customers/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/customers/"
+          },
+          {
+            "text": "شماره حساب‌ها",
+            "href": "https://pars.host/payment/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/payment/"
+          },
+          {
+            "text": "فرصت های شغلی",
+            "href": "https://pars.host/jobs/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/jobs/"
+          },
+          {
+            "text": "ثبت دامنه",
+            "href": "https://pars.host/domains/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/domains/"
+          },
+          {
+            "text": "هاست لینوکس",
+            "href": "https://pars.host/linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/linux-host/"
+          },
+          {
+            "text": "هاست وردپرس",
+            "href": "https://pars.host/wordpress-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/wordpress-host/"
+          },
+          {
+            "text": "هاست ووکامرس",
+            "href": "https://pars.host/woocommerce/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/woocommerce/"
+          },
+          {
+            "text": "هاست ابری لینوکس",
+            "href": "https://pars.host/cloud-linux-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-linux-host/"
+          },
+          {
+            "text": "هاست ویندوز",
+            "href": "https://pars.host/windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/windows-host/"
+          },
+          {
+            "text": "هاست ابری ویندوز",
+            "href": "https://pars.host/cloud-windows-host/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/cloud-windows-host/"
+          },
+          {
+            "text": "سرور مجازی ابری ویندوز",
+            "href": "https://pars.host/server-vps/windows/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/windows/"
+          },
+          {
+            "text": "سرور مجازی ابری لینوکس",
+            "href": "https://pars.host/server-vps/linux/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/linux/"
+          },
+          {
+            "text": "سرور مجازی ایران",
+            "href": "https://pars.host/server-vps/iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-vps/iran/"
+          },
+          {
+            "text": "سرور اختصاصی ایران",
+            "href": "https://pars.host/server-dedicated/iran/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/iran/"
+          },
+          {
+            "text": "سرور اختصاصی خارج کشور",
+            "href": "https://pars.host/server-dedicated/germany/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/server-dedicated/germany/"
+          },
+          {
+            "text": "خدمات میزبانی سرور",
+            "href": "https://pars.host/colocation/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/colocation/"
+          },
+          {
+            "text": "سایت ساز",
+            "href": "https://pars.host/sitebuilder/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/sitebuilder/"
+          },
+          {
+            "text": "گواهی SSL",
+            "href": "https://pars.host/ssl/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/ssl/"
+          },
+          {
+            "text": "کسب درآمد کنید",
+            "href": "https://pars.host/affiliate/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/affiliate/"
+          },
+          {
+            "text": "افزونه وردپرس پارس هاست",
+            "href": "https://pars.host/plugin/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/plugin/"
+          },
+          {
+            "text": "چرا پارس هاست؟",
+            "href": "https://pars.host/whyserverpars/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/whyserverpars/"
+          },
+          {
+            "text": "تماس با ما",
+            "href": "https://pars.host/contact-us/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/contact-us/"
+          },
+          {
+            "text": "لیست مشتریان",
+            "href": "https://pars.host/customers/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/customers/"
+          },
+          {
+            "text": "شماره حساب‌ها",
+            "href": "https://pars.host/payment/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/payment/"
+          },
+          {
+            "text": "فرصت های شغلی",
+            "href": "https://pars.host/jobs/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/jobs/"
+          },
+          {
+            "text": "<img loading=\"lazy\" alt=\"certificate\" src=\"https://pars.host/wp-content/uploads//2023/11/enamad.png\" />",
+            "href": "https://pars.host/enamad/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/enamad/"
+          },
+          {
+            "text": "<img loading=\"lazy\" alt=\"certificate\" src=\"https://pars.host/wp-content/uploads//2025/06/ISO_9001.png\" />",
+            "href": "https://pars.host/enamad/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/enamad/"
+          },
+          {
+            "text": "<img loading=\"lazy\" alt=\"certificate\" src=\"https://pars.host/wp-content/uploads//2025/06/anjooman-senfi.png\" />",
+            "href": "https://pars.host/enamad/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/enamad/"
+          },
+          {
+            "text": "",
+            "href": "https://www.facebook.com/serverpars",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "www.facebook.com",
+            "pathname": "/serverpars"
+          },
+          {
+            "text": "",
+            "href": "https://twitter.com/serverpars",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "twitter.com",
+            "pathname": "/serverpars"
+          },
+          {
+            "text": "",
+            "href": "https://instagram.com/pars.host",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "instagram.com",
+            "pathname": "/pars.host"
+          },
+          {
+            "text": "",
+            "href": "https://www.linkedin.com/company/serverpars/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "www.linkedin.com",
+            "pathname": "/company/serverpars/"
+          },
+          {
+            "text": "بیشتر بدانید",
+            "href": "https://pars.host/affiliate/",
+            "target": null,
+            "rel": null,
+            "protocol": "https:",
+            "hostname": "pars.host",
+            "pathname": "/affiliate/"
+          }
+        ]
+      }
+    },
+    "dom": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "totalElements": 1850,
+        "headElements": 67,
+        "bodyElements": 1780,
+        "forms": 1,
+        "images": 109,
+        "links": 131,
+        "scripts": 38,
+        "stylesheets": 17,
+        "iframes": 2
+      }
+    },
+    "errors": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "pageErrors": 0,
+          "consoleErrors": 0,
+          "failedRequests": 5
+        },
+        "pageErrors": [],
+        "consoleErrors": [],
+        "failedRequests": [
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&ae=g&auid=11305126.1785190231&dt=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C&en=page_view&dl=https%3A%2F%2Fpars.host%2F&scrsrc=www.googletagmanager.com&rnd=1092504705.1785190231&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He67o1v78905481za200zd78905481xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896802&apvc=1&tft=1785190230775&tfd=2974&fmt=8",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://ad.doubleclick.net/ccm/s/collect?auid=11305126.1785190231&gtm=45He67o1v78905481za200zd78905481xea",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&auid=11305126.1785190231&dt=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C&en=page_view&dl=https%3A%2F%2Fpars.host%2F&scrsrc=www.googletagmanager.com&rnd=1092504705.1785190231&navt=n&npa=0&gtm=45je67o1v879932357z878905481za20gzb78905481zd78905481xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119896803&apvc=0&tids=AW-797801126&tid=AW-797801126&tft=1785190231338&tfd=3538&fmt=8",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/rmkt/collect/797801126/?random=1785190231323&cv=11&fst=1785190231323&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67o1v879932357z878905481za20gzb78905481zd78905481xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119896803&u_w=1920&u_h=1080&url=https%3A%2F%2Fpars.host%2F&rcb=19&frm=0&tiba=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=11305126.1785190231&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-3CTQRK1PQ9&gtm=45je67o1v879932357z878905481za20gzb78905481zd78905481&_p=1785190229442&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=566451995.1785190231&frm=0&pscdl=noapi&rcb=19&sr=1920x1080&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896803&sid=1785190231&sct=1&seg=0&dl=https%3A%2F%2Fpars.host%2F&dt=%D9%BE%D8%A7%D8%B1%D8%B3%20%D9%87%D8%A7%D8%B3%D8%AA%20%7C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%87%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%A8%D8%B1%DB%8C%D8%8C%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%20%D8%AF%D8%A7%D9%85%D9%86%D9%87%20%D8%A8%D8%A7%20%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C%20%D9%A2%DB%B4%2F%D9%A7&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=3521",
+            "method": "POST",
+            "resourceType": "fetch",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    "frames": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "total": 3,
+          "mainFrames": 1,
+          "childFrames": 2
+        },
+        "frames": [
+          {
+            "url": "https://pars.host/",
+            "name": null,
+            "isMainFrame": true,
+            "parentFrame": null
+          },
+          {
+            "url": "https://mediacdn.mediaad.org/static/fingerprint.html",
+            "name": null,
+            "isMainFrame": false,
+            "parentFrame": "https://pars.host/"
+          },
+          {
+            "url": "https://cdn.yektanet.com/assets/iframe/yngt.html?fp=undefined&report=0",
+            "name": null,
+            "isMainFrame": false,
+            "parentFrame": "https://pars.host/"
+          }
+        ]
+      }
+    },
+    "redirect": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "summary": {
+          "redirects": 2,
+          "finalUrl": "https://cdn.yektanet.com/assets/iframe/yngt.html?fp=undefined&report=0"
+        },
+        "chain": [
+          {
+            "url": "https://pars.host/",
+            "status": 200
+          },
+          {
+            "url": "https://mediacdn.mediaad.org/static/fingerprint.html",
+            "status": 200
+          },
+          {
+            "url": "https://cdn.yektanet.com/assets/iframe/yngt.html?fp=undefined&report=0",
+            "status": 200
+          }
+        ]
+      }
+    },
+    "manifest": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "exists": true,
+        "href": "https://pars.host/superpwa-manifest.json",
+        "manifest": {
+          "id": "pars.host",
+          "name": "ParsHost",
+          "short_name": "ParsHost",
+          "icons": [
+            {
+              "src": "https://pars.host/wp-content/uploads/2026/04/icon-192x192-1.png",
+              "sizes": "192x192",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "https://pars.host/wp-content/uploads/2026/04/icon-512x512-1.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "any"
+            }
+          ],
+          "background_color": "#f7f7ff",
+          "theme_color": "#3c5788",
+          "display": "standalone",
+          "dir": "rtl",
+          "orientation": "portrait",
+          "start_url": ".",
+          "scope": "/",
+          "shortcuts": [
+            {
+              "name": "ParsHost",
+              "url": "/",
+              "icons": [
+                {
+                  "src": "https://pars.host/wp-content/uploads/2026/04/icon-192x192-1.png",
+                  "sizes": "192x192"
+                }
+              ]
+            }
+          ],
+          "launch_handler": {
+            "client_mode": "auto"
+          },
+          "handle_links": "preferred"
+        },
+        "error": null
+      }
+    },
+    "serviceWorker": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "count": 1,
+        "registrations": [
+          {
+            "scope": "https://pars.host/",
+            "active": false,
+            "installing": false,
+            "waiting": false
+          }
+        ]
+      }
+    },
+    "indexedDB": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "available": true,
+        "count": 0,
+        "databases": []
+      }
+    },
+    "cacheStorage": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "count": 0,
+        "caches": []
+      }
+    },
+    "networkInformation": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "effectiveType": "3g",
+        "downlink": 1.45,
+        "downlinkMax": null,
+        "rtt": 350,
+        "saveData": false,
+        "type": null
+      }
+    },
+    "deviceMemory": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "memoryGB": 8
+      }
+    },
+    "hardwareConcurrency": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "logicalProcessors": 6
+      }
+    },
+    "permissions": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "supported": true,
+        "permissions": {
+          "geolocation": "prompt",
+          "notifications": "prompt",
+          "camera": "prompt",
+          "microphone": "prompt",
+          "clipboard-read": "prompt",
+          "clipboard-write": "granted"
+        }
+      }
+    },
+    "navigator": {
+      "success": true,
+      "duration": 0,
+      "data": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "platform": "Win32",
+        "vendor": "Google Inc.",
+        "cookieEnabled": true,
+        "onLine": true,
+        "doNotTrack": null,
+        "pdfViewerEnabled": true
+      }
+    }
+  },
+  "artifacts": {},
+  "exports": {}
+}
