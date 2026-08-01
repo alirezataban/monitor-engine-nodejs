@@ -275,7 +275,7 @@ module.exports = {
             // رفتن به سایت
             const response = await ctx.page.goto(ctx.site.url, {
                 waitUntil: "load",
-                timeout: 30000
+                timeout: 50000
             });
 
             ctx.navigation = {

@@ -1,8 +1,8 @@
 module.exports = {
 
-    timeout: 30000,
+    timeout: 50000,
 
-    waitUntil: "networkidle",
+    waitUntil: "load",
 
     retries: 1
 
